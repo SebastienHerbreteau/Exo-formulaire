@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+    <div class="np section">
+        <label for="nom">Nom</label>
+        <input type="text" name="np" id="nom">
+        <label for="prenom">Prénom</label>
+        <input type="text" name="np" id="prenom">
+        <div class="alertnp alert"></div>  
+    </div>
+
+    <div class="genre section ">
+        <label for="homme">Homme</label>
+        <input type="radio" name="genre" id="homme" value="homme">
+        <label for="femme">Femme</label>
+        <input type="radio" name="genre" id="femme" value="femme">
+        <div class="youare"></div>
+        <div class="alertgenre alert"></div>
+    </div>
+
+    <hr>
+
+<div class="heros section">
+    <label for="heros">Quel super-héros êtes-vous</label>
+    <select name="heros" id="heros">
+        <option>-</option>
+        <option>Batman</option>
+        <option>Superman</option>
+        <option>Spiderman</option>
+        <option>Hulk</option>
+        <option>Captain America</option>
+        <option>Hawk Eye</option>
+    </select>
+    <div class="alertheros alert"></div>
+</div>
+
+<hr>
+
+<div class="politic section">
+    <label for="politic">J’ai bien lu la politique d’utilisation de ce formulaire</label>
+    <input type="checkbox" name="politic" id="politic">
+    <div class="resultatPolitic"></div>
+    <div class="alertpolitic alert"></div>
+</div>
+
+<hr>
+
+<div class="why section">
+    <label for="why">Dites-nous pourquoi vous voulez postuler chez My Awesome
+        Startup ?</label>
+        <textarea name="why" rows="12" cols="35" id="why"></textarea>
+        <div class="alertwhy alert"></div>
+</div>
+
+<hr>
+
+<div class="color">
+    <p id="lorem" class="vide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quod quos delectus, expedita laudantium modi soluta eaque aliquam, molestias voluptas ut ex, architecto quidem doloribus incidunt autem nihil nam aspernatur.</p>
+    <button class="btn rouge">Rouge</button>
+    <button class="btn jaune">Jaune</button>
+    <button class="btn vert">Vert</button>
+    <p>Quelle est votre couleur préférée ?</p>
+    <div class="alertColor alert"></div>
+</div>
+
+<hr>
+<input type="radio" id="send">
+<label id="send2">je veux envoyer</label>
+
+<div class="motiv"></div>
+
+</select>
+<br>
+
+
+
+
+
+
+       <input type="submit" id="submit">
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

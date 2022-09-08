@@ -1,0 +1,32 @@
+.section, .envoyer{
+    margin-top: 30px;
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#lorem {
+    width: 500px;
+}
+
+.alert{
+    height: 20px;
+    color: red;
+}
+
+.rougep {
+
+    color: red;
+}
+
+.vertp {
+
+    color: green;
+}
+
+.jaunep {
+    
+    color: yellow;
+}
